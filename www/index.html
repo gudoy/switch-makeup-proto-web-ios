@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js homePage" id="homePage">
+<head>
+	<meta charset="utf-8" />
+	<title>Video | Switch Makeup</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta http-equiv="cleartype" content="on">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="SwitchMakeUp">
+
+	<link rel="stylesheet" href="public/css/app.css" />
+	<link rel="stylesheet" href="public/css/switchMakeup.css" />
+	<link rel="stylesheet" href="public/css/pages/home.css" />
+	
+</head>
+<body>
+
+	<div class="layout page home current" id="home">
+		
+		<header class="header" id="header">
+			<div class="headerHeader" id="headerHeader">
+				<h1 id="branding">
+					<a class="logo" rel="home" id="logo" href="index.html">
+						<span class="nickname">Fake Product Line</span>
+						<span class="baseline">Baseline goes here</span>
+					</a>
+					<span class="owner" id="owner">
+						<span class="by">by</span>
+						<span class="logo" id="logo">FAKE BRAND NAME</span>
+						<span class="baseline" id="baseline">Lorem ipsum</span>
+					</span>
+				</h1>
+			</div>
+			<div class="headerContent" id="headerContent">
+				<nav class="mainNav" id="mainNav">
+					<ul>
+						<li class="item navItem lv1" id="eyesItem"><a class="action eyesAction" id="eyesAction" href="eyes.html"><span class="label">Eyes</span></a></li>
+						<li class="item navItem lv1" id="lipsItem"><a class="action lipsAction" id="lipsAction" href="lips.html"><span class="label">Lips</span></a></li>
+						<li class="item navItem lv1" id="nailsItem"><a class="action nailsAction" id="nailsAction" href="nails.html"><span class="label">Nails</span></a></li>
+						<li class="item navItem lv1" id="faceItem"><a class="action faceAction" id="faceAction" href="face.html"><span class="label">Face</span></a></li>				
+					</ul>
+				</nav>
+			</div>
+			<div class="headerFooter" id="headerFooter"></div>
+		</header>
+  		  		
+  		<div class="body" id="body">
+  			<aside class="aside" id="aside">
+  				<header class="header asideHeader"></header>
+  				<div class="asideContent" id="asideContent"></div>
+  				<footer class="asideFooter"></footer>
+  			</aside>
+  			<div class="main" id="main">
+  				<header class="header mainHeader" id="mainHeader"></header>
+  				<div class="mainContent" id="mainContent"></div>
+  				<footer class="mainFooter" id="mainFooter"></footer>
+  			</div>
+		</div>
+		
+		<footer class="footer" id="footer">
+			<header class="header footerHeader" id="footerheader"></header>
+  			<div class="footerContent" id="footerContent">
+  			</div>
+  			<footer class="footerFooter" id="footerFooter"></footer>
+		</footer>
+  		  	
+  	</div>
+  	
+  	<div id="trialAlert" class="trialAlert hidden">
+  		<div class="container">
+			<div class="title">Switch Makeup - Trial Version</div>
+	  		<div class="content">
+	  			<p>For further information please contact the DMI integrated communication team:</p>
+				<div class="content"></div>
+	  		</div>
+	  		<nav class="actions">
+	  			<button id="dismissTrialAlertAction" class="action dismissTrialAlertAction"><span class="label">OK</span></button>
+	  		</nav>
+  		</div>
+  	</div>
+
+	<!--	<script src="public/js/libs/cordova-2.7.0.js"></script>-->
+	<script src="public/js/libs/modernizr.custom.65182.js"></script>
+	<script>document.write('<script src=public/js/libs/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>')</script>
+	<script>if ( typeof Zepto === 'undefined' && typeof jQuery !== 'undefined' ){ var Zepto = jQuery; }</script>
+	<script src="public/js/libs/zepto.ghostclick.min.js"></script>
+	<script src="public/js/app.js"></script>
+	<script src="public/js/switchMakeup.js"></script>
+	<script src="public/js/pages/home.js"></script>
+	<script>
+		document.addEventListener("deviceready", function(){ app.init(); }, false);
+		$(document).ready(function(){ app.init(); })
+	</script>
+  	
+</body>
+</html>
