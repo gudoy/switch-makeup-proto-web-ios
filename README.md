@@ -11,3 +11,16 @@ While you play with (move) the product in the area below the video, a divider wi
 
 ## Demo video
 [![Demo video](https://github.com/gudoy/switch-makeup-proto-web-ios/raw/refs/heads/main/screenshot-video-demo-switch-makup.jpg)](https://github.com/gudoy/switch-makeup-proto-web-ios/raw/refs/heads/main/demo-switch-makeup.mp4)
+
+
+## Run locally
+
+Install dependencies (only 1 'http-server', to run a small static server)
+```
+npm install
+```
+
+Start the app
+```
+npm run start
+```
