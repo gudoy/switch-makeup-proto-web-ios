@@ -6,4 +6,4 @@ While you play with (move) the product in the area below the video, a divider wi
 - the LEFT part of the divider showing the "makeup" applied
 - the RIGHT part of the divider showing no makeup
 
-[![Video showing the app](https://github.com/gudoy/switch-makeup-proto-web-ios/raw/refs/heads/main/demo-switch-makeup.mp4)]
+[![Demo video]((https://github.com/gudoy/switch-makeup-proto-web-ios/raw/refs/heads/main/screenshot-video-demo-switch-makup.jpg))(https://github.com/gudoy/switch-makeup-proto-web-ios/raw/refs/heads/main/demo-switch-makeup.mp4)]
